@@ -1,0 +1,12 @@
+.accessibiltyContainer {
+  width: 25%;
+  margin-left: 2rem;
+}
+.feedContainer {
+  width: 45%;
+  background-color: gold;
+}
+.sideContainer {
+  width: 30%;
+  background-color: aquamarine;
+}

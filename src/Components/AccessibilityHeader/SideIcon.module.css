@@ -1,0 +1,18 @@
+.sidebarIcon {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.sideBarContainer {
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.sidebarText {
+  padding: 1em;
+}
+.hovered {
+  cursor: pointer;
+  background-color: #e7e7e8;
+}
