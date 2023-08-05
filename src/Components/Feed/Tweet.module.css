@@ -1,0 +1,32 @@
+.tweetContent {
+  padding: 0.75em;
+}
+.reactionContainer {
+  padding: 0.75em;
+}
+.reactionSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+.commentHover {
+  background-color: #e1eef6;
+  color: #1d9bf0;
+}
+.retweetHover {
+  background-color: #def1eb;
+  color: #25c48f;
+}
+.likeHover {
+  background-color: #f7e0eb;
+  color: #f85ca4;
+}
+.reaction {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1em;
+  padding: 0.5em;
+  border-radius: 5px;
+}
