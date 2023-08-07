@@ -3,18 +3,25 @@ import Tweetuser from "./Tweetuser";
 import ReactionContainer from "./ReactionContainer";
 import classes from "./Tweet.module.css";
 
-const Tweet = () => {
+const Tweet = (props) => {
   return (
     <>
       <div className="tweetContainer">
         <div className="userDetails">
-          <Tweetuser />
+          <Tweetuser
+            userName={props.tweet.userName}
+            userID={props.tweet.userID}
+          />
         </div>
         <div className={classes.tweetContent}>
-          <TweetContent />
+          <TweetContent tweetContent={props.tweet.tweetContent} />
         </div>
         <div className={classes.reactionContainer}>
-          <ReactionContainer />
+          <ReactionContainer
+            tweetLikes={props.tweet.tweetLikes}
+            tweetRetweets={props.tweet.tweetRetweets}
+            tweetComments={props.tweet.tweetComments}
+          />
         </div>
       </div>
     </>

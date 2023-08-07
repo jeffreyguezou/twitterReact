@@ -1,4 +1,4 @@
-const TweetContent = () => {
-  return <div>This is tweet content</div>;
+const TweetContent = (props) => {
+  return <div>{props.tweetContent}</div>;
 };
 export default TweetContent;

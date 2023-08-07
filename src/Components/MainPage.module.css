@@ -1,12 +1,14 @@
 .accessibiltyContainer {
-  width: 25%;
+  width: 20%;
   margin-left: 2rem;
 }
 .feedContainer {
-  width: 45%;
+  width: 50%;
   padding: 1em;
+  border-left: 1px solid rgb(239, 243, 244);
 }
 .sideContainer {
   width: 30%;
-  background-color: aquamarine;
+  padding: 2em;
+  border-left: 1px solid rgb(239, 243, 244);
 }

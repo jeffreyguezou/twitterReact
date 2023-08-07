@@ -3,7 +3,7 @@ import { AiOutlineRetweet, AiOutlineHeart } from "react-icons/ai";
 import classes from "./Tweet.module.css";
 import { useState } from "react";
 
-const ReactionContainer = () => {
+const ReactionContainer = (props) => {
   const [isCommentHovered, setIsCommentHovered] = useState(false);
   const [isRetweetHovered, setIsRetweetHovered] = useState(false);
   const [isLikeHovered, setIsLikeHovered] = useState(false);
@@ -45,7 +45,7 @@ const ReactionContainer = () => {
         onMouseLeave={removeCommentHoverHandler}
       >
         <FaRegComment />
-        <span>45</span>
+        <span>{props.tweetComments}</span>
       </div>
       <div
         className={retweetHoverStyle}
@@ -53,7 +53,7 @@ const ReactionContainer = () => {
         onMouseLeave={removeRetweetHoverHandler}
       >
         <AiOutlineRetweet />
-        <span>45</span>
+        <span>{props.tweetRetweets}</span>
       </div>
       <div
         className={likeHoverStyle}
@@ -61,7 +61,7 @@ const ReactionContainer = () => {
         onMouseLeave={removeLikeHoverHandler}
       >
         <AiOutlineHeart />
-        <span>45</span>
+        <span>{props.tweetLikes}</span>
       </div>
     </div>
   );

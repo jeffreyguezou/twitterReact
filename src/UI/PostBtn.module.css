@@ -12,3 +12,7 @@
   width: 60px;
   display: flow-root;
 }
+.disabled {
+  background-color: #8ecdf7;
+  cursor: not-allowed;
+}

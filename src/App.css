@@ -14,12 +14,13 @@ body {
   border-radius: 10px;
   border-bottom: 1px solid rgb(239, 243, 244);
   border-top: 1px solid rgb(239, 243, 244);
-  padding: 1em;
+  padding: 0 16px;
 }
 .tweeterDetails {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-top: 12px;
 }
 .reactionBox {
   display: flex;
@@ -57,4 +58,45 @@ body {
 .tweetPostOptions {
   min-height: 36px;
   min-width: 36px;
+}
+.searchComponent {
+  border-radius: 20px;
+  border: 1px solid rgb(239, 243, 244);
+  padding-left: 1em;
+  display: flex;
+  background-color: #eff3f4;
+  align-items: center;
+}
+.searchInputBox {
+  outline: none;
+  border: none;
+  background-color: #eff3f4;
+  padding: 12px;
+}
+.trendingTopic {
+  color: #717f89;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 8px;
+}
+.trendingTab {
+  background-color: #f7f9f9;
+  padding: 12px;
+}
+.trend {
+  display: flex;
+  flex-direction: column;
+}
+.trendTerm {
+  font-weight: bold;
+  padding: 2px 0;
+}
+.trendStatus {
+  color: #717f89;
+}
+.hovered {
+  background-color: #eff1f1;
+  border: 1px solid rgb(239, 243, 244);
+  cursor: pointer;
 }

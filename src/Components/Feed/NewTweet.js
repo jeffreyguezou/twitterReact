@@ -18,7 +18,7 @@ const NewTweet = () => {
           type="text"
         ></input>
       </div>
-      <TweetOptions />
+      <TweetOptions tweetContent={createTweet} />
     </>
   );
 };
