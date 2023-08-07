@@ -1,4 +1,5 @@
 import { useState } from "react";
+import TweetOptions from "./TweetOptions";
 
 const NewTweet = () => {
   const [createTweet, setCreateTweet] = useState("");
@@ -17,6 +18,7 @@ const NewTweet = () => {
           type="text"
         ></input>
       </div>
+      <TweetOptions />
     </>
   );
 };

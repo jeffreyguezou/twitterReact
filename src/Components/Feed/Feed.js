@@ -1,4 +1,5 @@
 import NewTweet from "./NewTweet";
+import TabList from "./TabList";
 import Tweet from "./Tweet";
 const Feed = () => {
   return (
@@ -6,6 +7,7 @@ const Feed = () => {
       <div className="homeHeader">
         <span>Home</span>
       </div>
+      <TabList />
       <NewTweet />
       <Tweet />
     </>

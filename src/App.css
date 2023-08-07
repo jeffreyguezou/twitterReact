@@ -12,7 +12,8 @@ body {
 .tweetContainer {
   background-color: white;
   border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgb(239, 243, 244);
+  border-top: 1px solid rgb(239, 243, 244);
   padding: 1em;
 }
 .tweeterDetails {
@@ -35,7 +36,25 @@ body {
   border: 0;
   color: gray;
   padding: 12px;
+  outline: none;
 }
 .newTweetContainer {
   padding: 1em;
+}
+.tweetOptions {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid rgb(239, 243, 244);
+  border-top: 1px solid rgb(239, 243, 244);
+  padding: 2%;
+}
+.tweetInsertOptions {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.tweetPostOptions {
+  min-height: 36px;
+  min-width: 36px;
 }

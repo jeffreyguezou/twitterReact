@@ -1,0 +1,14 @@
+.postBtn {
+  border-radius: 5em;
+  background-color: #1a8cd8;
+  color: white;
+  font-weight: 600;
+  width: 100%;
+  border: 0;
+  height: 100%;
+  cursor: pointer;
+}
+.btnText {
+  width: 60px;
+  display: flow-root;
+}
