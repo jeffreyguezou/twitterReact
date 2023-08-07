@@ -100,3 +100,7 @@ body {
   border: 1px solid rgb(239, 243, 244);
   cursor: pointer;
 }
+.searchHighlighted {
+  color: #50b7f5;
+  border: 1px solid #50b7f5;
+}
