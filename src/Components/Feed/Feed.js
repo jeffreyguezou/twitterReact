@@ -52,10 +52,12 @@ const Feed = () => {
   ];
   return (
     <>
-      <div className="homeHeader">
-        <span>Home</span>
+      <div className="feedHeader">
+        <div className="homeHeader">
+          <span>Home</span>
+        </div>
+        <TabList />
       </div>
-      <TabList />
       <NewTweet />
       {tweets.map((tweet) => {
         return <Tweet key={tweet.tweetID} tweet={tweet} />;

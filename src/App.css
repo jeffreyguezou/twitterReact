@@ -32,6 +32,11 @@ body {
   font-weight: bold;
   text-transform: capitalize;
 }
+.feedHeader {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
 .newTweetBox {
   width: 100%;
   border: 0;
