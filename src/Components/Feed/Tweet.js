@@ -26,6 +26,7 @@ const Tweet = (props) => {
           <Tweetuser
             userName={props.tweet.userName}
             userID={props.tweet.userID}
+            userImgUrl={props.tweet.userImgUrl}
           />
         </div>
         <div className={classes.tweetContent}>

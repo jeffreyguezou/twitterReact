@@ -21,6 +21,7 @@ body {
   flex-direction: row;
   align-items: center;
   padding-top: 12px;
+  gap: 6px;
 }
 .reactionBox {
   display: flex;
@@ -46,6 +47,7 @@ body {
 }
 .newTweetContainer {
   padding: 1em;
+  display: flex;
 }
 .tweetOptions {
   display: flex;

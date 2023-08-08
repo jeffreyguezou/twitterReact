@@ -1,10 +1,10 @@
-import { HiOutlineUserCircle } from "react-icons/hi";
+import ProfilePicture from "../../UI/ProfilePicture";
+
 const Tweetuser = (props) => {
-  const profilePicSize = { width: "40px", height: "40px" };
   return (
     <div className="tweeterDetails">
       <span>
-        <HiOutlineUserCircle style={profilePicSize} />
+        <ProfilePicture userImgURL={props.userImgUrl} />
       </span>
       <div>{props.userName}</div>
       <div>{props.userID}</div>
